@@ -13,9 +13,6 @@ fun SettingsScreen(navController: NavController) {
     Scaffold(
         topBar = { ScreenTopBar("Settings", navController) },
     ) { innerPadding ->
-        Text(
-            text = "Settings Screen",
-            modifier = Modifier.padding(innerPadding)
-        )
+        Text(text = "Settings Screen", modifier = Modifier.padding(innerPadding))
     }
 }

@@ -13,9 +13,6 @@ fun MainScreen(navController: NavController) {
     Scaffold(
         topBar = { MainTopAppBar("My app", navController) },
     ) { innerPadding ->
-        Text(
-            text = "Home Screen",
-            modifier = Modifier.padding(innerPadding)
-        )
+        Text(text = "Home Screen", modifier = Modifier.padding(innerPadding))
     }
 }

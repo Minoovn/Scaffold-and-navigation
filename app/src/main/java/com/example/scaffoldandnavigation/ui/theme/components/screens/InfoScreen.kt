@@ -13,9 +13,6 @@ fun InfoScreen(navController: NavController) {
     Scaffold(
         topBar = { ScreenTopBar("Info", navController) },
     ) { innerPadding ->
-        Text(
-            text = "Info Screen",
-            modifier = Modifier.padding(innerPadding)
-        )
+        Text(text = "Info Screen", modifier = Modifier.padding(innerPadding))
     }
 }
